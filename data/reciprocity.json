@@ -1,0 +1,105 @@
+{
+  "taxYear": 2026,
+  "ratesChecked": "2026-09-01",
+  "generated": "2026-10-13",
+  "source": "https://paycheckledger.com",
+  "license": "CC BY 4.0",
+  "note": "Agreements under which wages are taxed only in the state where the employee lives. Only states whose own documents list their partners are included.",
+  "states": [
+    {
+      "key": "michigan",
+      "name": "Michigan",
+      "checked": "2026-10-14",
+      "partners": [
+        "Illinois",
+        "Indiana",
+        "Kentucky",
+        "Minnesota",
+        "Ohio",
+        "Wisconsin"
+      ],
+      "form": null,
+      "source": {
+        "label": "Michigan Department of Treasury, withholding reciprocity (MCL 206.256)",
+        "url": "https://www.michigan.gov/taxes/business-taxes/payroll-service-providers/withholding-reciprocity-examples"
+      }
+    },
+    {
+      "key": "minnesota",
+      "name": "Minnesota",
+      "checked": "2026-10-14",
+      "partners": [
+        "Michigan",
+        "North Dakota"
+      ],
+      "form": null,
+      "note": "It works both ways: a Minnesota resident working in either state, and a resident of either state working in Minnesota, is taxed only at home.",
+      "source": {
+        "label": "Minnesota Department of Revenue, reciprocity for individuals",
+        "url": "https://www.revenue.state.mn.us/reciprocity"
+      }
+    },
+    {
+      "key": "north-dakota",
+      "name": "North Dakota",
+      "checked": "2026-10-14",
+      "partners": [
+        "Minnesota",
+        "Montana"
+      ],
+      "form": "Form NDW-R",
+      "source": {
+        "label": "North Dakota Office of State Tax Commissioner, income tax withholding",
+        "url": "https://www.tax.nd.gov/business/income-tax-withholding"
+      }
+    },
+    {
+      "key": "wisconsin",
+      "name": "Wisconsin",
+      "checked": "2026-10-14",
+      "partners": [
+        "Illinois",
+        "Indiana",
+        "Kentucky",
+        "Michigan"
+      ],
+      "form": "Form W-220",
+      "source": {
+        "label": "Wisconsin Department of Revenue, withholding FAQ",
+        "url": "https://www.revenue.wi.gov/Pages/FAQS/pcs-with.aspx"
+      }
+    },
+    {
+      "key": "virginia",
+      "name": "Virginia",
+      "checked": "2026-10-14",
+      "partners": [
+        "the District of Columbia",
+        "Kentucky",
+        "Maryland",
+        "Pennsylvania",
+        "West Virginia"
+      ],
+      "form": "Form VA-4",
+      "note": "If Virginia tax was withheld anyway, you get it back by filing Form 763-S — you do not file a full Virginia return.",
+      "source": {
+        "label": "Virginia Department of Taxation, reciprocity",
+        "url": "https://www.tax.virginia.gov/reciprocity"
+      }
+    },
+    {
+      "key": "new-jersey",
+      "name": "New Jersey",
+      "checked": "2026-10-14",
+      "partners": [
+        "Pennsylvania"
+      ],
+      "form": "Form NJ-165",
+      "note": "The agreement covers wages only. Income from a business, or from selling something, is not part of it.",
+      "source": {
+        "label": "New Jersey Division of Taxation, PA/NJ reciprocal income tax agreement",
+        "url": "https://www.nj.gov/treasury/taxation/njit25.shtml"
+      }
+    }
+  ]
+}

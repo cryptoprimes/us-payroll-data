@@ -1,0 +1,1280 @@
+{
+  "taxYear": 2026,
+  "ratesChecked": "2026-09-01",
+  "generated": "2026-10-13",
+  "source": "https://paycheckledger.com",
+  "license": "CC BY 4.0",
+  "note": "State income tax at a glance. Withholding formulas themselves stay in the site's code; what is here are the published rates, notes and the authority each state publishes them in.",
+  "states": [
+    {
+      "key": "texas",
+      "name": "Texas",
+      "abbr": "TX",
+      "hasIncomeTax": false,
+      "flatRate": null,
+      "rateRange": null,
+      "notes": [
+        "Texas has no state income tax, and nothing else is withheld at state level either.",
+        "Your paycheck is shaped entirely by federal withholding and FICA.",
+        "Texas employers pay unemployment insurance, but it does not come out of your pay."
+      ],
+      "changesForYear": [],
+      "salesTax": {
+        "state": 6.25,
+        "combined": 8.2
+      },
+      "borders": [
+        "arkansas",
+        "louisiana",
+        "new-mexico",
+        "oklahoma"
+      ],
+      "source": "https://comptroller.texas.gov/taxes/"
+    },
+    {
+      "key": "florida",
+      "name": "Florida",
+      "abbr": "FL",
+      "hasIncomeTax": false,
+      "flatRate": null,
+      "rateRange": null,
+      "notes": [
+        "Florida has no state income tax and no state-level payroll deduction from your pay.",
+        "Reemployment tax is paid by employers, not withheld from wages."
+      ],
+      "changesForYear": [],
+      "salesTax": {
+        "state": 6,
+        "combined": 6.98
+      },
+      "borders": [
+        "alabama",
+        "georgia"
+      ],
+      "source": "https://floridarevenue.com/taxes/"
+    },
+    {
+      "key": "washington",
+      "name": "Washington",
+      "abbr": "WA",
+      "hasIncomeTax": false,
+      "flatRate": null,
+      "rateRange": null,
+      "notes": [
+        "Washington has no state income tax.",
+        "Two state programs are still withheld from your pay: Paid Family & Medical Leave and WA Cares."
+      ],
+      "changesForYear": [
+        "The Paid Family & Medical Leave premium rose from 0.92% to 1.13% of wages."
+      ],
+      "salesTax": {
+        "state": 6.5,
+        "combined": 9.57
+      },
+      "borders": [
+        "idaho",
+        "oregon"
+      ],
+      "source": "https://esd.wa.gov/paid-family-medical-leave"
+    },
+    {
+      "key": "tennessee",
+      "name": "Tennessee",
+      "abbr": "TN",
+      "hasIncomeTax": false,
+      "flatRate": null,
+      "rateRange": null,
+      "notes": [
+        "Tennessee has no tax on wage income.",
+        "The Hall income tax on interest and dividends was fully repealed in 2021, so wages are untouched at state level."
+      ],
+      "changesForYear": [],
+      "salesTax": {
+        "state": 7,
+        "combined": 9.61
+      },
+      "borders": [
+        "alabama",
+        "arkansas",
+        "georgia",
+        "kentucky",
+        "mississippi",
+        "missouri",
+        "north-carolina",
+        "virginia"
+      ],
+      "source": "https://www.tn.gov/revenue.html"
+    },
+    {
+      "key": "nevada",
+      "name": "Nevada",
+      "abbr": "NV",
+      "hasIncomeTax": false,
+      "flatRate": null,
+      "rateRange": null,
+      "notes": [
+        "Nevada has no state income tax.",
+        "The Modified Business Tax is paid by employers, not withheld from your pay."
+      ],
+      "changesForYear": [],
+      "salesTax": {
+        "state": 6.85,
+        "combined": 8.24
+      },
+      "borders": [
+        "arizona",
+        "california",
+        "idaho",
+        "oregon",
+        "utah"
+      ],
+      "source": "https://tax.nv.gov/"
+    },
+    {
+      "key": "wyoming",
+      "name": "Wyoming",
+      "abbr": "WY",
+      "hasIncomeTax": false,
+      "flatRate": null,
+      "rateRange": null,
+      "notes": [
+        "Wyoming has no state income tax and no employee payroll deduction.",
+        "Only federal withholding and FICA come out of your pay."
+      ],
+      "changesForYear": [],
+      "salesTax": {
+        "state": 4,
+        "combined": 5.39
+      },
+      "borders": [
+        "colorado",
+        "idaho",
+        "montana",
+        "nebraska",
+        "south-dakota",
+        "utah"
+      ],
+      "source": "https://revenue.wyo.gov/"
+    },
+    {
+      "key": "south-dakota",
+      "name": "South Dakota",
+      "abbr": "SD",
+      "hasIncomeTax": false,
+      "flatRate": null,
+      "rateRange": null,
+      "notes": [
+        "South Dakota has no state income tax and no employee-side payroll deduction.",
+        "Unemployment insurance is paid by employers only."
+      ],
+      "changesForYear": [],
+      "salesTax": {
+        "state": 4.2,
+        "combined": 6.11
+      },
+      "borders": [
+        "iowa",
+        "minnesota",
+        "montana",
+        "nebraska",
+        "north-dakota",
+        "wyoming"
+      ],
+      "source": "https://dor.sd.gov/"
+    },
+    {
+      "key": "new-hampshire",
+      "name": "New Hampshire",
+      "abbr": "NH",
+      "hasIncomeTax": false,
+      "flatRate": null,
+      "rateRange": null,
+      "notes": [
+        "New Hampshire does not tax wages.",
+        "Its old tax on interest and dividends ended after 2024, so there is nothing left that touches a paycheck."
+      ],
+      "changesForYear": [],
+      "salesTax": {
+        "state": 0,
+        "combined": 0
+      },
+      "borders": [
+        "maine",
+        "massachusetts",
+        "vermont"
+      ],
+      "source": "https://www.revenue.nh.gov/"
+    },
+    {
+      "key": "alaska",
+      "name": "Alaska",
+      "abbr": "AK",
+      "hasIncomeTax": false,
+      "flatRate": null,
+      "rateRange": null,
+      "notes": [
+        "Alaska has no state income tax.",
+        "It is one of the very few states where employees pay into unemployment insurance: 0.5% of wages up to $54,200, so at most $271 a year.",
+        "That is the only state-level deduction on an Alaska paycheck."
+      ],
+      "changesForYear": [
+        "The unemployment wage base rose to $54,200, lifting the maximum employee contribution to $271."
+      ],
+      "salesTax": {
+        "state": 0,
+        "combined": 1.82
+      },
+      "borders": [
+        "washington",
+        "oregon"
+      ],
+      "source": "https://labor.alaska.gov/estax/"
+    },
+    {
+      "key": "illinois",
+      "name": "Illinois",
+      "abbr": "IL",
+      "hasIncomeTax": true,
+      "flatRate": 0.0495,
+      "rateRange": null,
+      "notes": [
+        "Illinois taxes income at a flat 4.95%.",
+        "Each exemption on your IL-W-4 takes $2,925 off the income that rate applies to.",
+        "Illinois does not tax retirement income — pensions, 401(k) withdrawals and Social Security are all exempt."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "indiana",
+        "iowa",
+        "kentucky",
+        "missouri",
+        "wisconsin"
+      ],
+      "source": "https://tax.illinois.gov/"
+    },
+    {
+      "key": "georgia",
+      "name": "Georgia",
+      "abbr": "GA",
+      "hasIncomeTax": true,
+      "flatRate": 0.0499,
+      "rateRange": null,
+      "notes": [
+        "Georgia taxes income at a flat 4.99%, cut from 5.19% by HB 463 in May 2026.",
+        "The standard deduction went up at the same time: $15,000 for a single filer, $30,000 for a married couple filing jointly.",
+        "Each dependent takes another $5,000 off the taxable amount.",
+        "The rate cut is backdated to 1 January 2026, but employers only had to start withholding at 4.99% from 11 May — so pay stubs from early in the year may show the old rate."
+      ],
+      "changesForYear": [
+        "HB 463 cut the flat rate from 5.19% to 4.99%, effective for withholding from 11 May 2026.",
+        "The standard deduction rose from $12,000 to $15,000 for single filers, and the dependent deduction from $4,000 to $5,000."
+      ],
+      "salesTax": null,
+      "borders": [
+        "alabama",
+        "florida",
+        "north-carolina",
+        "south-carolina",
+        "tennessee"
+      ],
+      "source": "https://dor.georgia.gov/document/document/2026-employers-tax-guide-updated-june-2026/download"
+    },
+    {
+      "key": "wisconsin",
+      "name": "Wisconsin",
+      "abbr": "WI",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.0354,
+        0.0765
+      ],
+      "notes": [
+        "Wisconsin's income tax rates are 3.5%, 4.4%, 5.3% and 7.65% — the bottom two were cut by Act 19 back in 2023.",
+        "The withholding tables your employer uses were not updated to match. They still date from 1 January 2022 and use the older 3.54% and 4.65% for the lower bands.",
+        "So Wisconsin takes slightly more out of each paycheck than you finally owe, and the difference comes back at filing time.",
+        "Its standard deduction shrinks as you earn more: a single filer gets $6,702 below $17,780, and nothing at all above $73,630.",
+        "That taper is why the share of your pay going to Wisconsin climbs faster than the bracket rates alone suggest."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "illinois",
+        "iowa",
+        "michigan",
+        "minnesota"
+      ],
+      "source": "https://www.revenue.wi.gov/Pages/FAQS/pcs-with.aspx"
+    },
+    {
+      "key": "virginia",
+      "name": "Virginia",
+      "abbr": "VA",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.02,
+        0.0575
+      ],
+      "notes": [
+        "Virginia has four income tax rates, from 2% up to 5.75%.",
+        "The top 5.75% rate starts at just $17,000 of taxable income, so nearly everyone reaches it — the lower bands barely matter.",
+        "The standard deduction is $8,750 for a single filer, plus $930 for each personal exemption."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "kentucky",
+        "maryland",
+        "north-carolina",
+        "tennessee",
+        "west-virginia"
+      ],
+      "source": "https://www.tax.virginia.gov/withholding-tax"
+    },
+    {
+      "key": "iowa",
+      "name": "Iowa",
+      "abbr": "IA",
+      "hasIncomeTax": true,
+      "flatRate": 0.038,
+      "rateRange": null,
+      "notes": [
+        "Iowa taxes income at a flat 3.8%, after a standard deduction of $13,000 for a single filer.",
+        "Each allowance is worth $40 off the tax itself, not off your income — Iowa is unusual in doing it that way.",
+        "Iowa no longer taxes retirement income for anyone aged 55 or over."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "illinois",
+        "minnesota",
+        "missouri",
+        "nebraska",
+        "south-dakota",
+        "wisconsin"
+      ],
+      "source": "https://revenue.iowa.gov/taxes/tax-guidance/withholding-tax"
+    },
+    {
+      "key": "colorado",
+      "name": "Colorado",
+      "abbr": "CO",
+      "hasIncomeTax": true,
+      "flatRate": 0.044,
+      "rateRange": null,
+      "notes": [
+        "Colorado taxes income at a flat 4.4%, after a standard deduction of $5,500 for a single filer.",
+        "Colorado dropped numbered allowances entirely — the DR 0004 form uses wage brackets and dependent counts instead."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "arizona",
+        "kansas",
+        "nebraska",
+        "new-mexico",
+        "oklahoma",
+        "utah",
+        "wyoming"
+      ],
+      "source": "https://tax.colorado.gov/withholding-tax"
+    },
+    {
+      "key": "north-carolina",
+      "name": "North Carolina",
+      "abbr": "NC",
+      "hasIncomeTax": true,
+      "flatRate": 0.0409,
+      "rateRange": null,
+      "notes": [
+        "North Carolina withholds at a flat 4.09% — slightly above its 3.99% income tax rate.",
+        "That gap is deliberate: the state withholds a little extra so most people do not end up owing at filing.",
+        "The standard deduction is $12,750, plus $2,500 for each dependent."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "georgia",
+        "south-carolina",
+        "tennessee",
+        "virginia"
+      ],
+      "source": "https://www.ncdor.gov/taxes-forms/withholding-tax"
+    },
+    {
+      "key": "pennsylvania",
+      "name": "Pennsylvania",
+      "abbr": "PA",
+      "hasIncomeTax": true,
+      "flatRate": 0.0307,
+      "rateRange": null,
+      "notes": [
+        "Pennsylvania taxes wages at a flat 3.07% — with no standard deduction, no personal exemption and no allowances.",
+        "It is the simplest state withholding formula in the country: 3.07% of everything you earn.",
+        "Most Pennsylvania towns add a local Earned Income Tax on top, usually 1% to 3%, which is not included here."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "delaware",
+        "maryland",
+        "new-jersey",
+        "new-york",
+        "ohio",
+        "west-virginia"
+      ],
+      "source": "https://www.pa.gov/agencies/revenue.html"
+    },
+    {
+      "key": "oklahoma",
+      "name": "Oklahoma",
+      "abbr": "OK",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.025,
+        0.045
+      ],
+      "notes": [
+        "Oklahoma has three rates — 2.5%, 3.5% and 4.5% — but the bands are narrow.",
+        "The first $10,100 is taxed at 0% for a single filer, and the top 4.5% rate starts at just $13,550, so almost everyone lands there.",
+        "Each exemption on your OK-W-4 takes $1,000 off the taxable amount."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "arkansas",
+        "colorado",
+        "kansas",
+        "missouri",
+        "new-mexico",
+        "texas"
+      ],
+      "source": "https://oklahoma.gov/tax.html"
+    },
+    {
+      "key": "arizona",
+      "name": "Arizona",
+      "abbr": "AZ",
+      "hasIncomeTax": true,
+      "flatRate": 0.02,
+      "rateRange": null,
+      "notes": [
+        "Arizona is unusual: you pick your own withholding rate on Form A-4, from 0.5% to 3.5% in half-point steps.",
+        "If you never filed an A-4, your employer withholds at 2.0% — that is the figure used here.",
+        "Arizona's actual income tax rate is a flat 2.5%, so the 2.0% default withholds less than you owe and can leave a small bill at filing time.",
+        "Picking 2.5% on your A-4 is the closest match to what you will actually owe."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "california",
+        "colorado",
+        "nevada",
+        "new-mexico",
+        "utah"
+      ],
+      "source": "https://azdor.gov/forms/withholding-forms/arizona-withholding-percentage-election"
+    },
+    {
+      "key": "louisiana",
+      "name": "Louisiana",
+      "abbr": "LA",
+      "hasIncomeTax": true,
+      "flatRate": 0.0309,
+      "rateRange": null,
+      "notes": [
+        "Louisiana withholds at a flat 3.09%, slightly above its 3% income tax rate.",
+        "A single filer gets a $12,500 personal exemption before that rate applies, and $25,000 if married filing jointly.",
+        "Each dependent takes another $1,000 off."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "arkansas",
+        "mississippi",
+        "texas"
+      ],
+      "source": "https://revenue.louisiana.gov/withholding-tax"
+    },
+    {
+      "key": "indiana",
+      "name": "Indiana",
+      "abbr": "IN",
+      "hasIncomeTax": true,
+      "flatRate": 0.0295,
+      "rateRange": null,
+      "notes": [
+        "Indiana taxes income at a flat 2.95%, one of the lowest state rates in the country.",
+        "Each exemption on your WH-4 takes $1,000 off the taxable amount.",
+        "Every Indiana county adds its own income tax on top, from 0.5% to 3.0% — that is not included here, and in some counties it is larger than the state tax itself."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "illinois",
+        "kentucky",
+        "michigan",
+        "ohio"
+      ],
+      "source": "https://www.in.gov/dor/business-tax/withholding-income-tax/"
+    },
+    {
+      "key": "kentucky",
+      "name": "Kentucky",
+      "abbr": "KY",
+      "hasIncomeTax": true,
+      "flatRate": 0.035,
+      "rateRange": null,
+      "notes": [
+        "Kentucky taxes income at a flat 3.5%, after a standard deduction of $3,360.",
+        "That deduction is the same whatever your filing status — Kentucky does not raise it for married couples.",
+        "Many Kentucky cities and counties add a local occupational tax on wages, typically 1% to 2.5%, which is not included here."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "illinois",
+        "indiana",
+        "missouri",
+        "ohio",
+        "tennessee",
+        "virginia",
+        "west-virginia"
+      ],
+      "source": "https://revenue.ky.gov/Business/Pages/Withholding-Tax.aspx"
+    },
+    {
+      "key": "missouri",
+      "name": "Missouri",
+      "abbr": "MO",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.02,
+        0.047
+      ],
+      "notes": [
+        "Missouri has eight tax bands, but they are extremely narrow — the top 4.7% rate starts at just $9,436 of taxable income.",
+        "The standard deduction matches the federal one: $16,100 for a single filer.",
+        "Missouri used to let you deduct federal tax paid before applying its own rates. That step was removed for 2026."
+      ],
+      "changesForYear": [
+        "Missouri removed the federal income tax deduction from its withholding formula."
+      ],
+      "salesTax": null,
+      "borders": [
+        "arkansas",
+        "illinois",
+        "iowa",
+        "kansas",
+        "kentucky",
+        "nebraska",
+        "oklahoma",
+        "tennessee"
+      ],
+      "source": "https://dor.mo.gov/taxation/business/tax-types/withholding/"
+    },
+    {
+      "key": "maine",
+      "name": "Maine",
+      "abbr": "ME",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.058,
+        0.0715
+      ],
+      "notes": [
+        "Maine has three tax bands, from 5.8% up to 7.15% — the lowest band already starts higher than many states' top rate.",
+        "Each allowance takes $5,300 off your taxable pay, on top of a $12,450 standard deduction for a single filer.",
+        "That standard deduction tapers away between $102,250 and $177,250 of income, and disappears entirely above it."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "new-hampshire"
+      ],
+      "source": "https://www.maine.gov/revenue/taxes/income-estate-tax/withholding"
+    },
+    {
+      "key": "idaho",
+      "name": "Idaho",
+      "abbr": "ID",
+      "hasIncomeTax": true,
+      "flatRate": 0.053,
+      "rateRange": null,
+      "notes": [
+        "Idaho taxes income at a single flat rate of 5.3%, down from 5.695% the year before.",
+        "The first $15,000 you earn is taxed at 0% ($30,000 if married filing jointly), so the effective rate is lower than 5.3%.",
+        "Idaho dropped personal and spousal allowances — only dependents reduce withholding, at $3,868 each."
+      ],
+      "changesForYear": [
+        "Idaho cut its flat income tax rate from 5.695% to 5.3%."
+      ],
+      "salesTax": null,
+      "borders": [
+        "montana",
+        "nevada",
+        "oregon",
+        "utah",
+        "washington",
+        "wyoming"
+      ],
+      "source": "https://tax.idaho.gov/taxes/income-tax/individual-income/"
+    },
+    {
+      "key": "michigan",
+      "name": "Michigan",
+      "abbr": "MI",
+      "hasIncomeTax": true,
+      "flatRate": 0.0425,
+      "rateRange": null,
+      "notes": [
+        "Michigan taxes income at a flat 4.25%.",
+        "Each personal exemption on your MI-W4 takes $5,900 off the income that rate applies to.",
+        "Some Michigan cities add their own income tax on top — Detroit charges 2.4% for residents."
+      ],
+      "changesForYear": [
+        "The Michigan personal exemption rose from $5,800 to $5,900."
+      ],
+      "salesTax": null,
+      "borders": [
+        "indiana",
+        "ohio",
+        "wisconsin"
+      ],
+      "source": "https://www.michigan.gov/taxes"
+    },
+    {
+      "key": "minnesota",
+      "name": "Minnesota",
+      "abbr": "MN",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.0535,
+        0.0985
+      ],
+      "notes": [
+        "Minnesota has four income tax rates, from 5.35% up to 9.85%.",
+        "Each withholding allowance on your W-4MN takes $5,300 off the income those rates apply to.",
+        "The top 9.85% rate only starts above $207,850 for a single filer, so most people never reach it."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "iowa",
+        "north-dakota",
+        "south-dakota",
+        "wisconsin"
+      ],
+      "source": "https://www.revenue.state.mn.us/withholding-tax"
+    },
+    {
+      "key": "montana",
+      "name": "Montana",
+      "abbr": "MT",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.047,
+        0.0565
+      ],
+      "notes": [
+        "Montana has two income tax rates: 4.7% and 5.65%.",
+        "The first $16,100 you earn is taxed at 0% for a single filer — Montana uses the same standard deduction as the federal return.",
+        "The 5.65% rate only applies to income above $63,600 for a single filer."
+      ],
+      "changesForYear": [
+        "HB 337 cut Montana's top rate from 5.9% to 5.65% from 1 January 2026."
+      ],
+      "salesTax": null,
+      "borders": [
+        "idaho",
+        "north-dakota",
+        "south-dakota",
+        "wyoming"
+      ],
+      "source": "https://mtrevenue.gov/taxes/wage-withholding/"
+    },
+    {
+      "key": "mississippi",
+      "name": "Mississippi",
+      "abbr": "MS",
+      "hasIncomeTax": true,
+      "flatRate": 0.04,
+      "rateRange": null,
+      "notes": [
+        "Mississippi taxes income at 4% — but only above $10,000 of taxable pay. The first $10,000 is taxed at 0%.",
+        "A single filer also gets a $2,300 standard deduction and a $6,000 personal exemption before that.",
+        "The rate is on a legislated path down to 3% by 2030, cut from 4.4% to 4% for 2026."
+      ],
+      "changesForYear": [
+        "Mississippi cut its rate from 4.4% to 4% for 2026, on the way to 3% by 2030."
+      ],
+      "salesTax": null,
+      "borders": [
+        "alabama",
+        "arkansas",
+        "louisiana",
+        "tennessee"
+      ],
+      "source": "https://www.dor.ms.gov/individual/tax-rates"
+    },
+    {
+      "key": "utah",
+      "name": "Utah",
+      "abbr": "UT",
+      "hasIncomeTax": true,
+      "flatRate": 0.045,
+      "rateRange": null,
+      "notes": [
+        "Utah taxes income at a flat 4.5% of everything you earn — there is no standard deduction to subtract first.",
+        "Instead there is a small withholding allowance, $450 for a single filer, and it tapers away as income rises.",
+        "Above roughly $19,000 a year the allowance is gone entirely, so most people pay the full 4.5%."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "arizona",
+        "colorado",
+        "idaho",
+        "nevada",
+        "new-mexico",
+        "wyoming"
+      ],
+      "source": "https://tax.utah.gov/withholding"
+    },
+    {
+      "key": "south-carolina",
+      "name": "South Carolina",
+      "abbr": "SC",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.03,
+        0.06
+      ],
+      "notes": [
+        "South Carolina has two rates that bite — 3% and 6% — plus a 0% band on the first $3,640.",
+        "The 6% rate starts at $18,230 of taxable pay, so most full-time workers reach it.",
+        "The standard deduction is 10% of your wages, capped at $7,500, and each exemption takes another $4,860 off."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "georgia",
+        "north-carolina"
+      ],
+      "source": "https://dor.sc.gov/tax/withholding"
+    },
+    {
+      "key": "alabama",
+      "name": "Alabama",
+      "abbr": "AL",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.02,
+        0.05
+      ],
+      "notes": [
+        "Alabama has three rates — 2%, 4% and 5% — but the bands are tiny: the top 5% starts at just $3,000 of taxable income.",
+        "The standard deduction shrinks as you earn more, from $3,000 down to a floor of $2,500 above $35,500 of wages.",
+        "A single filer also gets a $1,500 personal exemption.",
+        "Many Alabama cities charge an occupational tax on wages, typically 1% to 2%, which is not included here."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "florida",
+        "georgia",
+        "mississippi",
+        "tennessee"
+      ],
+      "source": "https://www.revenue.alabama.gov/individual-corporate/withholding-tax/"
+    },
+    {
+      "key": "kansas",
+      "name": "Kansas",
+      "abbr": "KS",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.052,
+        0.0558
+      ],
+      "notes": [
+        "Kansas has two rates, 5.2% and 5.58%, on top of a 0% band covering the first $3,605 for a single filer.",
+        "The higher rate starts at $23,000 above that band, so most full-time workers pay some of it.",
+        "Each exemption on your K-4 takes $2,320 off the taxable amount."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "colorado",
+        "missouri",
+        "nebraska",
+        "oklahoma"
+      ],
+      "source": "https://www.ksrevenue.gov/bustaxtypeswh.html"
+    },
+    {
+      "key": "north-dakota",
+      "name": "North Dakota",
+      "abbr": "ND",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.0195,
+        0.025
+      ],
+      "notes": [
+        "North Dakota has the gentlest income tax of any state that charges one: 1.95% and 2.5%.",
+        "The first $57,625 a single filer earns is taxed at 0% — so on a typical salary the state takes only a few dollars a paycheck.",
+        "The 2.5% top rate does not start until $258,450, which almost nobody reaches.",
+        "If you filed a 2020 or later W-4, North Dakota uses your federal taxable wages directly with no state allowance."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "minnesota",
+        "montana",
+        "south-dakota"
+      ],
+      "source": "https://www.tax.nd.gov/business/income-tax-withholding"
+    },
+    {
+      "key": "vermont",
+      "name": "Vermont",
+      "abbr": "VT",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.0335,
+        0.0875
+      ],
+      "notes": [
+        "Vermont has four rates — 3.35%, 6.6%, 7.6% and 8.75% — on top of a 0% band covering the first $3,925.",
+        "Each exemption you claim takes $5,400 off before the rates apply, which is one of the more generous allowances in the country.",
+        "The 6.6% rate does not start until $54,675 of taxable pay, so a typical salary stays mostly in the 3.35% band."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "massachusetts",
+        "new-hampshire",
+        "new-york"
+      ],
+      "source": "https://tax.vermont.gov/business/withholding"
+    },
+    {
+      "key": "delaware",
+      "name": "Delaware",
+      "abbr": "DE",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.022,
+        0.066
+      ],
+      "notes": [
+        "Delaware has six rates from 2.2% to 6.6%, but the bands are narrow — the top 6.6% rate starts at just $60,000.",
+        "The standard deduction is $3,250 for a single filer, well below the federal one.",
+        "Each allowance is worth $110 off the tax itself, not off your income — Delaware works like Iowa in that respect.",
+        "If you work in Wilmington, the city adds a 1.25% wage tax that is not included here."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "maryland",
+        "new-jersey",
+        "pennsylvania"
+      ],
+      "source": "https://revenue.delaware.gov/employers-guide-withholding-regulations-employers-duties/"
+    },
+    {
+      "key": "rhode-island",
+      "name": "Rhode Island",
+      "abbr": "RI",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.0375,
+        0.0599
+      ],
+      "notes": [
+        "Rhode Island has three rates — 3.75%, 4.75% and 5.99% — and no 0% band, so the tax starts on the first dollar.",
+        "The 4.75% rate does not start until $82,050, so most workers stay in the bottom band.",
+        "Each exemption is worth $1,000, but the allowance disappears entirely once wages pass $290,800."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "connecticut",
+        "massachusetts"
+      ],
+      "source": "https://tax.ri.gov/tax-sections/withholding-tax"
+    },
+    {
+      "key": "massachusetts",
+      "name": "Massachusetts",
+      "abbr": "MA",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.05,
+        0.09
+      ],
+      "notes": [
+        "Massachusetts taxes income at a flat 5%, plus a 4% surtax on earnings above $1,107,750 — the so-called millionaire's tax.",
+        "A single filer gets a $4,400 exemption; each extra exemption adds $1,000 to a $3,400 base.",
+        "Massachusetts also lets you deduct the Social Security and Medicare tax you paid, up to $2,000 a year — almost no other state does this.",
+        "If you claim an exemption and earn under $8,000 a year, nothing is withheld at all."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "connecticut",
+        "new-hampshire",
+        "new-york",
+        "rhode-island",
+        "vermont"
+      ],
+      "source": "https://www.mass.gov/topics/withholding-taxes"
+    },
+    {
+      "key": "hawaii",
+      "name": "Hawaii",
+      "abbr": "HI",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.014,
+        0.079
+      ],
+      "notes": [
+        "Hawaii has eight rates, from 1.4% up to 7.9%, and the bands are narrow — a single filer reaches 7.6% at $48,000.",
+        "There is no standard deduction in the withholding formula; each allowance you claim is worth $1,144.",
+        "Hawaii is phasing in wider brackets through 2031, so what your employer withholds may differ from what your annual return works out to."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "california",
+        "washington"
+      ],
+      "source": "https://tax.hawaii.gov/forms/a1_b3_4whhold/"
+    },
+    {
+      "key": "new-jersey",
+      "name": "New Jersey",
+      "abbr": "NJ",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.015,
+        0.118
+      ],
+      "notes": [
+        "New Jersey has seven rates from 1.5% to 11.8%, and the bands jump sharply: 3.9% at $35,000, then 6.1% at $40,000.",
+        "Each exemption you claim is worth $1,000 off your taxable pay.",
+        "Three separate contributions also come out of a New Jersey paycheck — unemployment, temporary disability and family leave.",
+        "Disability and family leave both dropped for 2026: TDI from 0.23% to 0.19%, FLI from 0.33% to 0.23%."
+      ],
+      "changesForYear": [
+        "Temporary Disability fell from 0.23% to 0.19% and Family Leave from 0.33% to 0.23%, while the wage base for both rose to $171,100."
+      ],
+      "salesTax": null,
+      "borders": [
+        "delaware",
+        "new-york",
+        "pennsylvania"
+      ],
+      "source": "https://www.nj.gov/treasury/taxation/njit26.shtml"
+    },
+    {
+      "key": "ohio",
+      "name": "Ohio",
+      "abbr": "OH",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.016,
+        0.034
+      ],
+      "notes": [
+        "Ohio's income tax is a flat 2.75% on income above $26,050, but the tables your employer uses to withhold are not flat — they run 1.6%, 2.99% and 3.4%.",
+        "That is deliberate: withholding only subtracts a $650 exemption, not the $26,050 the tax itself exempts, so the rates are set to compensate.",
+        "The practical effect is that what comes out of your paycheck and what you finally owe are worked out two different ways.",
+        "Many Ohio cities and school districts levy their own income tax, often 1% to 2.5%, which is not included here."
+      ],
+      "changesForYear": [
+        "New withholding tables took effect for pay periods ending on or after 1 August 2026, replacing rates of 1.775%, 2.99% and 3.64%."
+      ],
+      "salesTax": null,
+      "borders": [
+        "indiana",
+        "kentucky",
+        "michigan",
+        "pennsylvania",
+        "west-virginia"
+      ],
+      "source": "https://tax.ohio.gov/employer_withholding"
+    },
+    {
+      "key": "nebraska",
+      "name": "Nebraska",
+      "abbr": "NE",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.0226,
+        0.046
+      ],
+      "notes": [
+        "Nebraska's withholding table has seven bands, from 2.26% up to 4.6%, on top of a 0% band covering the first $3,430.",
+        "Each allowance you claim is worth $2,440 off your taxable pay — one of the larger allowances in the country.",
+        "The withholding table has more bands than the income tax itself, which the state is phasing down separately, so the two do not line up exactly.",
+        "If you claim enough allowances to push withholding very low, a state rule (LB 223) sets a floor on what your employer must still take out."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "colorado",
+        "iowa",
+        "kansas",
+        "missouri",
+        "south-dakota",
+        "wyoming"
+      ],
+      "source": "https://revenue.nebraska.gov/businesses/income-tax-withholding"
+    },
+    {
+      "key": "west-virginia",
+      "name": "West Virginia",
+      "abbr": "WV",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.0211,
+        0.0458
+      ],
+      "notes": [
+        "West Virginia cut every rate again for 2026: the top rate is now 4.58%, down from 4.82%.",
+        "The cut was signed on 12 June 2026 but applies retroactively to 1 January, so withholding changed part-way through the year.",
+        "Each exemption you claim is worth $2,000 off your taxable pay.",
+        "The same five bands apply whether you file single or jointly — West Virginia does not widen them for couples."
+      ],
+      "changesForYear": [
+        "Senate Bill 392 cut all five rates by about 5%: 2.22% to 2.11%, 2.96% to 2.81%, 3.33% to 3.16%, 4.44% to 4.22% and 4.82% to 4.58%."
+      ],
+      "salesTax": null,
+      "borders": [
+        "kentucky",
+        "maryland",
+        "ohio",
+        "pennsylvania",
+        "virginia"
+      ],
+      "source": "https://tax.wv.gov/Individuals/Pages/PersonalIncomeTaxReductionBill.aspx"
+    },
+    {
+      "key": "arkansas",
+      "name": "Arkansas",
+      "abbr": "AR",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.02,
+        0.037
+      ],
+      "notes": [
+        "Arkansas cut its top rate to 3.7% for 2026 — the fourth cut in four years.",
+        "The first $5,600 you earn is taxed at 0%, and the standard deduction takes another $2,470 off before that.",
+        "Each exemption is worth $29 off the tax itself, not off your income.",
+        "Above $94,700 Arkansas switches to a different, simpler table, and the tax jumps at that point rather than easing in."
+      ],
+      "changesForYear": [
+        "The top rate fell from 3.9% to 3.7%, signed on 6 May 2026 and applied retroactively to 1 January."
+      ],
+      "salesTax": null,
+      "borders": [
+        "louisiana",
+        "mississippi",
+        "missouri",
+        "oklahoma",
+        "tennessee",
+        "texas"
+      ],
+      "source": "https://www.dfa.arkansas.gov/office/taxes/income-tax/withholding-tax-branch/"
+    },
+    {
+      "key": "california",
+      "name": "California",
+      "abbr": "CA",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.011,
+        0.1463
+      ],
+      "notes": [
+        "California has ten withholding bands, from 1.1% up to 14.63% — the widest spread of any state.",
+        "Those withholding rates sit above the headline income tax rates because the 1% mental health surcharge is folded into them.",
+        "State Disability Insurance takes another 1.3% of your pay, and since 2024 there is no wage cap on it — high earners pay it on every dollar.",
+        "Each allowance is worth $163.90 off the tax itself, and the standard deduction doubles to $11,412 once you claim two or more.",
+        "Earn under $18,368 as a single filer and California withholds nothing at all."
+      ],
+      "changesForYear": [
+        "State Disability Insurance rose from 1.2% to 1.3% of wages on 1 January 2026, with no wage cap."
+      ],
+      "salesTax": null,
+      "borders": [
+        "arizona",
+        "nevada",
+        "oregon"
+      ],
+      "source": "https://edd.ca.gov/en/payroll_taxes/rates_and_withholding/"
+    },
+    {
+      "key": "new-york",
+      "name": "New York",
+      "abbr": "NY",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.039,
+        0.117
+      ],
+      "notes": [
+        "New York's withholding table has thirteen bands, and the rates do not simply climb — they dip and spike.",
+        "That is deliberate: bands at 11.44% claw back the benefit of the lower rates from high earners, so the average rate lands where the state wants it.",
+        "A single filer gets $7,400 off the top, plus $1,000 for each allowance claimed.",
+        "If you live in New York City, the city charges its own income tax on top of this, roughly 3.1% to 3.9%, which is not included here.",
+        "New York also deducts Paid Family Leave from your pay — a small percentage set each year, which this calculator does not include."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "connecticut",
+        "massachusetts",
+        "new-jersey",
+        "pennsylvania",
+        "vermont"
+      ],
+      "source": "https://www.tax.ny.gov/bus/wt/withholding_tax_tables.htm"
+    },
+    {
+      "key": "oregon",
+      "name": "Oregon",
+      "abbr": "OR",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.0475,
+        0.099
+      ],
+      "notes": [
+        "Oregon is the only state that lets you subtract the federal tax you paid before working out state tax — up to $8,750 a year.",
+        "That subtraction is why Oregon's rates look steep but the amount taken is lower than you would expect: 8.75% applies to what is left after federal tax comes off.",
+        "There is no sales tax in Oregon, which is the trade-off for income tax rates starting at 4.75%.",
+        "A statewide transit tax of 0.1% also comes out of every paycheck.",
+        "The federal subtraction and the $263 personal credit both phase out for higher earners; this calculator switches them off above the thresholds rather than tapering them."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "california",
+        "idaho",
+        "nevada",
+        "washington"
+      ],
+      "source": "https://www.oregon.gov/dor/programs/businesses/Pages/withholding.aspx"
+    },
+    {
+      "key": "maryland",
+      "name": "Maryland",
+      "abbr": "MD",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.02,
+        0.0575
+      ],
+      "notes": [
+        "Maryland is really two taxes: the state's own rates from 2% to 5.75%, plus a county tax that comes out of the same paycheck.",
+        "County rates run from 2.25% to 3.30% for 2026. This calculator uses 3.20%, near the top of that range.",
+        "If your county charges less, your take-home is higher than shown; the gap between the lowest and highest county is just under 1% of your taxable pay.",
+        "The standard deduction is 15% of your income but capped at $2,550 for a single filer, so almost everyone gets the cap.",
+        "Each exemption is worth another $3,200 off."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "delaware",
+        "pennsylvania",
+        "virginia",
+        "west-virginia"
+      ],
+      "source": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/withholding/2026/withholding-guide.pdf"
+    },
+    {
+      "key": "connecticut",
+      "name": "Connecticut",
+      "abbr": "CT",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.02,
+        0.0699
+      ],
+      "notes": [
+        "Connecticut works out withholding in five stages, and no other state stacks this many.",
+        "First an exemption comes off — $15,000 for a single filer, shrinking $1,000 for every $1,000 you earn over $30,000 and gone above $44,000.",
+        "Then the rates apply, from 2% up to 6.99%.",
+        "Then two amounts get added back: a phase-out charge above $56,500 that claws back the 2% band, and a recapture charge above $105,000 that claws back the lower rates entirely.",
+        "Finally a personal credit cuts the whole result — 75% at the bottom, tapering to nothing once you pass $64,500.",
+        "The effect is that two people $5,000 apart in salary can face noticeably different rates, which is why Connecticut paycheck maths surprises people."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "massachusetts",
+        "new-york",
+        "rhode-island"
+      ],
+      "source": "https://portal.ct.gov/drs/withholding-taxes/tax-information"
+    },
+    {
+      "key": "new-mexico",
+      "name": "New Mexico",
+      "abbr": "NM",
+      "hasIncomeTax": true,
+      "flatRate": null,
+      "rateRange": [
+        0.015,
+        0.059
+      ],
+      "notes": [
+        "New Mexico has six rates, from 1.5% up to 5.9%, and the first $8,050 a single filer earns is not taxed at all.",
+        "There is no state allowance to claim if you filed a 2020 or later W-4 — New Mexico works straight from your federal taxable wages.",
+        "The bands for a married couple are exactly double the single ones at the bottom, but not at the top: 5.9% starts at $218,050 single and $331,100 jointly.",
+        "Bonuses and other supplemental pay are withheld at a flat 5.9%."
+      ],
+      "changesForYear": [],
+      "salesTax": null,
+      "borders": [
+        "arizona",
+        "colorado",
+        "oklahoma",
+        "texas",
+        "utah"
+      ],
+      "source": "https://realfile.tax.newmexico.gov/FYI-104.pdf"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "taxYear": 2026,
+  "ratesChecked": "2026-09-01",
+  "generated": "2026-10-13",
+  "source": "https://paycheckledger.com",
+  "license": "CC BY 4.0",
+  "note": "Federal withholding parameters as published by the IRS and the Social Security Administration.",
+  "standardDeduction": {
+    "single": 16100,
+    "married": 32200,
+    "head": 24150
+  },
+  "withholding": {
+    "single": [
+      [
+        7500,
+        0
+      ],
+      [
+        19900,
+        0.1
+      ],
+      [
+        57900,
+        0.12
+      ],
+      [
+        113200,
+        0.22
+      ],
+      [
+        209275,
+        0.24
+      ],
+      [
+        263725,
+        0.32
+      ],
+      [
+        648100,
+        0.35
+      ],
+      [
+        null,
+        0.37
+      ]
+    ],
+    "married": [
+      [
+        19300,
+        0
+      ],
+      [
+        44100,
+        0.1
+      ],
+      [
+        120100,
+        0.12
+      ],
+      [
+        230700,
+        0.22
+      ],
+      [
+        422850,
+        0.24
+      ],
+      [
+        531750,
+        0.32
+      ],
+      [
+        788000,
+        0.35
+      ],
+      [
+        null,
+        0.37
+      ]
+    ],
+    "head": [
+      [
+        15550,
+        0
+      ],
+      [
+        33250,
+        0.1
+      ],
+      [
+        83000,
+        0.12
+      ],
+      [
+        121250,
+        0.22
+      ],
+      [
+        217325,
+        0.24
+      ],
+      [
+        271750,
+        0.32
+      ],
+      [
+        656150,
+        0.35
+      ],
+      [
+        null,
+        0.37
+      ]
+    ]
+  },
+  "fica": {
+    "socialSecurityRate": 0.062,
+    "socialSecurityWageBase": 184500,
+    "medicareRate": 0.0145,
+    "additionalMedicareRate": 0.009,
+    "additionalMedicareThreshold": 200000
+  },
+  "supplementalRate": 0.22,
+  "obbba": {
+    "tipsCap": 25000,
+    "overtimeCap": {
+      "single": 12500,
+      "married": 25000,
+      "head": 12500
+    },
+    "phaseOutStart": {
+      "single": 150000,
+      "married": 300000,
+      "head": 150000
+    },
+    "phaseOutPerThousand": 100
+  }
+}

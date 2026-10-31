@@ -1,0 +1,1799 @@
+{
+  "taxYear": 2026,
+  "ratesChecked": "2026-09-01",
+  "generated": "2026-10-13",
+  "source": "https://paycheckledger.com",
+  "license": "CC BY 4.0",
+  "note": "Minimum wage, tipped wages, overtime, how often wages must be paid and when a final paycheck is due. Every record carries the state's own source and the date it was checked.",
+  "states": [
+    {
+      "key": "alabama",
+      "name": "Alabama",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "note": "There is no state minimum wage law; employers covered by federal law pay the federal minimum.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "No state rule sets how often you must be paid.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "alaska",
+      "name": "Alaska",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 14,
+        "note": "It rose from $13.00 on July 1, 2026.",
+        "source": {
+          "url": "https://labor.alaska.gov/lss/whhome.htm",
+          "label": "Alaska Department of Labor and Workforce Development, Wage and Hour"
+        }
+      },
+      "tipped": {
+        "tipCredit": false,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 8 hours in a day or 40 hours in a week.",
+        "source": {
+          "url": "https://labor.alaska.gov/lss/whfaq.htm",
+          "label": "Alaska Department of Labor wage and hour FAQ"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly or monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      },
+      "finalPay": {
+        "text": "If you are let go, within three working days, not counting weekends and holidays. If you quit, by the next regular payday that is at least three working days after your last day.",
+        "source": {
+          "url": "https://labor.alaska.gov/lss/whfaq.htm",
+          "label": "Alaska Department of Labor wage and hour FAQ"
+        }
+      }
+    },
+    {
+      "key": "arizona",
+      "name": "Arizona",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 15.15,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 12.15,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "At least twice a month, with paydays no more than 16 days apart.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "arkansas",
+      "name": "Arkansas",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 11,
+        "note": "It applies to employers with 4 or more employees.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.63,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "california",
+      "name": "California",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 16.9,
+        "note": "It is adjusted every year by a set formula.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": false,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 8 hours in a day, 40 in a week, or for the first 8 hours on a seventh straight day of work. Double time after 12 hours in a day or after 8 hours on the seventh day.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "At least twice a month, on paydays set in advance, with some exceptions depending on the job.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "colorado",
+      "name": "Colorado",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 15.16,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 12.14,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 12 hours in a day or 40 in a week, in retail and service, commercial support, food and beverage, and health and medical jobs.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "connecticut",
+      "name": "Connecticut",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 16.94,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": "varies",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "text": "Hotel and restaurant workers get at least $6.38 an hour in cash wages; bartenders who usually get tips, at least $8.23. Tips make up the rest of the minimum wage."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week. Restaurants and hotel restaurants also pay time and a half of the minimum wage for a seventh consecutive day of work.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Weekly. Longer intervals, up to monthly, need approval from the labor commissioner.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "delaware",
+      "name": "Delaware",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 15,
+        "note": "If the federal minimum is ever higher, the federal rate applies.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.23,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "florida",
+      "name": "Florida",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 14,
+        "note": "It rises to $15.00 on September 30, 2026, the last step set by the 2020 constitutional amendment.",
+        "source": {
+          "url": "https://floridajobs.org/florida-minimum-wage",
+          "label": "FloridaCommerce, Florida minimum wage"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 10.98,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "No state rule sets how often you must be paid.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "georgia",
+      "name": "Georgia",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "note": "Georgia's own law sets $5.15 for employers with 6 or more employees, but employers covered by federal law must pay the federal $7.25.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "hawaii",
+      "name": "Hawaii",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 16,
+        "note": "Employees guaranteed at least $4,000 a month are exempt from the state minimum wage and overtime law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 14.75,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "Employers may count tips only if wages and tips together come to at least $7.00 an hour more than the minimum wage."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly. Employees may choose to be paid monthly under a special election.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "idaho",
+      "name": "Idaho",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 3.35,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "Monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "illinois",
+      "name": "Illinois",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 15,
+        "note": "It applies to employers with 4 or more employees, not counting family members.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 9,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly. Executive, administrative and professional staff may be paid monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "indiana",
+      "name": "Indiana",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "note": "It applies to employers with 2 or more employees.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Every two weeks or twice a month.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "iowa",
+      "name": "Iowa",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 4.35,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "At least monthly, and no later than 12 days after the end of the pay period, not counting Sundays and legal holidays.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "kansas",
+      "name": "Kansas",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "Monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "kentucky",
+      "name": "Kentucky",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "note": "If the federal minimum is ever higher, the federal rate applies.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week, and for hours on the seventh day if you work all seven days of the workweek.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "louisiana",
+      "name": "Louisiana",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "note": "There is no state minimum wage law; employers covered by federal law pay the federal minimum.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "The state rule covers manufacturing, mining and oil drilling employers with 10 or more employees, and public service corporations: they must pay at least twice a month.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "maine",
+      "name": "Maine",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 15.1,
+        "note": "It is adjusted every year by a set formula.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 7.55,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $191 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "At regular intervals no more than 16 days apart.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "maryland",
+      "name": "Maryland",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 15,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 3.63,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Every two weeks or twice a month.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "massachusetts",
+      "name": "Massachusetts",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 15,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 6.75,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $20 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Hourly employees must be paid weekly or every two weeks. Salaried employees may be paid twice a month, or monthly if they agree.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "michigan",
+      "name": "Michigan",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 13.73,
+        "note": "It rises to $15.00 on January 1, 2027, and is adjusted every year after that.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 5.49,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "It depends on the type of work.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "minnesota",
+      "name": "Minnesota",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 11.41,
+        "note": "It is adjusted every year by a set formula.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": false,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 48 hours in a week under Minnesota law. Employers covered by federal law must pay it after 40.",
+        "source": [
+          {
+            "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+            "label": "U.S. Department of Labor state minimum wage table"
+          },
+          {
+            "url": "https://www.dol.gov/agencies/whd/overtime",
+            "label": "U.S. Department of Labor overtime rules"
+          }
+        ]
+      },
+      "payFrequency": {
+        "text": "At least once every 31 days for wages, salary and tips; commissions at least every three months.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "mississippi",
+      "name": "Mississippi",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "note": "There is no state minimum wage law; employers covered by federal law pay the federal minimum.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "The state rule covers manufacturers with 50 or more employees and public service corporations: they must pay every two weeks or twice a month.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "missouri",
+      "name": "Missouri",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 15,
+        "note": "Retail and service businesses with gross annual sales under $500,000 are among those exempt.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 7.5,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "montana",
+      "name": "Montana",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 10.85,
+        "note": "Businesses not covered by federal law with gross annual sales of $110,000 or less may pay $4.00.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": false,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "If no pay period has been set, it is presumed to be twice a month.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "nebraska",
+      "name": "Nebraska",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 15,
+        "note": "It applies to employers with 4 or more employees.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "On the payday the employer sets.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "nevada",
+      "name": "Nevada",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 12,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": false,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly. Executive, administrative and professional staff may be paid monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "new-hampshire",
+      "name": "New Hampshire",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 3.27,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Weekly or every two weeks. Paying twice a month or monthly needs written permission from the New Hampshire Department of Labor.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      },
+      "finalPay": {
+        "text": "If you are fired, within 72 hours. If you quit, by the next regular payday — or within 72 hours if you gave a full pay period's notice.",
+        "source": {
+          "url": "https://www.dol.nh.gov/resource-center/frequently-asked-questions/wages-and-work-hours-faqs",
+          "label": "New Hampshire Department of Labor, wages and work hours FAQ"
+        }
+      }
+    },
+    {
+      "key": "new-jersey",
+      "name": "New Jersey",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 15.92,
+        "note": "Employers with fewer than 6 employees, and seasonal jobs, pay at least $15.23. It is adjusted every year by a set formula.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 6.05,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly. Executive, supervisory and some other special classes of employees may be paid monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "new-mexico",
+      "name": "New Mexico",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 12,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 3,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly. Executive, administrative and professional staff may be paid monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "new-york",
+      "name": "New York",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 17,
+        "note": "That is the rate in New York City and Nassau, Suffolk and Westchester counties; the rest of the state pays $16.00.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": "varies",
+        "text": "Rates for tipped workers vary by region and by type of employer.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week; live-in residential workers, after 44 hours.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Weekly for manual workers. Semi-monthly with approval for manual workers, and for clerical and other workers.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "north-carolina",
+      "name": "North Carolina",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $20 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "No set schedule: pay periods may be daily, weekly, every two weeks, twice a month or monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "north-dakota",
+      "name": "North Dakota",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 4.86,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "ohio",
+      "name": "Ohio",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 11,
+        "note": "That is for employers with annual gross receipts of $405,000 or more; smaller employers pay $7.25. It is adjusted every year by a set formula.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 5.5,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "oklahoma",
+      "name": "Oklahoma",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "note": "Employers with fewer than 10 full-time employees at one location, sales of $100,000 or less and no federal coverage may pay $2.00.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "oregon",
+      "name": "Oregon",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 15.55,
+        "note": "That is the standard rate; the Portland metro area pays $16.80 and non-urban counties $14.55. It is adjusted every July 1.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": false,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week. Canneries, driers, packing plants, mills and factories also pay it after 10 hours in a day, except sawmills, planing mills, shingle mills and logging camps.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "pennsylvania",
+      "name": "Pennsylvania",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.83,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets at least $135 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      }
+    },
+    {
+      "key": "rhode-island",
+      "name": "Rhode Island",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 16,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 3.89,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week. Retail and some other businesses also pay time and a half for Sundays and holidays.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Most employers must pay weekly. Employers that meet certain requirements may get permission to pay less often, but at least twice a month.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "south-carolina",
+      "name": "South Carolina",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "note": "There is no state minimum wage law; employers covered by federal law pay the federal minimum.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "Employers with 5 or more employees must tell new hires in writing what they will earn and when and where they will be paid, and then pay on that schedule.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "south-dakota",
+      "name": "South Dakota",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 11.85,
+        "note": "It is adjusted every year by a set formula.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 5.93,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $35 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "Monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      },
+      "finalPay": {
+        "text": "By the next regular payday for the hours worked, or as soon after that as you return any property that belongs to your employer.",
+        "source": {
+          "url": "https://dlr.sd.gov/employment_laws/termination.aspx",
+          "label": "South Dakota Department of Labor and Regulation, termination"
+        }
+      }
+    },
+    {
+      "key": "tennessee",
+      "name": "Tennessee",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "note": "Tennessee has no minimum wage law of its own; employers covered by federal law pay the federal minimum.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "texas",
+      "name": "Texas",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $20 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "At least twice a month. Employees exempt from federal overtime may be paid once a month.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "utah",
+      "name": "Utah",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "Semi-monthly. Employees on a yearly salary may be paid monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "vermont",
+      "name": "Vermont",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 14.42,
+        "note": "It applies to employers with 2 or more employees and is adjusted every year by a set formula.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 7.21,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $120 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Weekly. Employers may switch to every two weeks or twice a month with written notice.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "virginia",
+      "name": "Virginia",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 12.77,
+        "note": "It is adjusted every year by a set formula.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "Weekly, every two weeks or twice a month. Executive, administrative and professional staff, and employees earning more than 150% of the state's average weekly wage who agree to it, may be paid monthly.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "washington",
+      "name": "Washington",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 17.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": false,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "At least once a month, on a regular payday.",
+        "source": {
+          "url": "https://www.lni.wa.gov/workers-rights/wages/getting-paid/",
+          "label": "Washington Department of Labor & Industries, getting paid"
+        }
+      },
+      "finalPay": {
+        "text": "On or before the next regularly scheduled payday, whether you quit or are fired.",
+        "source": {
+          "url": "https://www.lni.wa.gov/workers-rights/wages/getting-paid/",
+          "label": "Washington Department of Labor & Industries, getting paid"
+        }
+      }
+    },
+    {
+      "key": "west-virginia",
+      "name": "West Virginia",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 8.75,
+        "note": "It applies to employers with 6 or more employees at one location.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.62,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "Every two weeks.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "wisconsin",
+      "name": "Wisconsin",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.33,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        }
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a week.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "payFrequency": {
+        "text": "For most employers, at least monthly, with no more than 31 days between paydays.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/payday",
+          "label": "U.S. Department of Labor state payday requirements"
+        }
+      }
+    },
+    {
+      "key": "wyoming",
+      "name": "Wyoming",
+      "checked": "2026-09-15",
+      "minimumWage": {
+        "rate": 7.25,
+        "note": "Wyoming's own minimum is $5.15, but employers covered by federal law must pay the federal $7.25.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "label": "U.S. Department of Labor state minimum wage table"
+        }
+      },
+      "tipped": {
+        "tipCredit": true,
+        "cashWage": 2.13,
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "label": "U.S. Department of Labor tipped employee table"
+        },
+        "definition": "A tipped worker is one who gets more than $30 a month in tips."
+      },
+      "overtime": {
+        "text": "Time and a half after 40 hours in a workweek, under federal law.",
+        "source": {
+          "url": "https://www.dol.gov/agencies/whd/overtime",
+          "label": "U.S. Department of Labor overtime rules"
+        }
+      },
+      "payFrequency": {
+        "text": "Most employers do not have to follow a set schedule; certain industries must pay twice a month.",
+        "source": {
+          "url": "https://dws.wyo.gov/dws-division/labor-standards/employers/faq/",
+          "label": "Wyoming Department of Workforce Services, labor standards FAQ"
+        }
+      },
+      "finalPay": {
+        "text": "By the next regular payday.",
+        "source": {
+          "url": "https://dws.wyo.gov/dws-division/labor-standards/employers/faq/",
+          "label": "Wyoming Department of Workforce Services, labor standards FAQ"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "taxYear": 2026,
+  "ratesChecked": "2026-09-01",
+  "generated": "2026-10-13",
+  "source": "https://paycheckledger.com",
+  "license": "CC BY 4.0",
+  "note": "City and county income taxes charged on top of the state rate. Only states confirmed against a primary source are listed.",
+  "states": [
+    {
+      "key": "new-york",
+      "name": "New York",
+      "checked": "2026-10-14",
+      "included": false,
+      "lead": "Two places in New York charge income tax of their own on top of the state's, and both come out of the same paycheck.",
+      "items": [
+        {
+          "place": "New York City",
+          "text": "City income tax is withheld from people who live in the city, using New York City's own withholding tables for 2026. A bonus paid separately is withheld at the city supplemental rate of 4.25%."
+        },
+        {
+          "place": "Yonkers",
+          "text": "Residents pay a surcharge on top of their state tax, withheld with the city's own tables — supplemental pay at 1.95975%. People who work in Yonkers but live elsewhere pay the nonresident earnings tax of 0.50% of wages instead."
+        }
+      ],
+      "sources": [
+        {
+          "label": "NYS-50-T-NYC, New York City withholding tables (1/26)",
+          "url": "https://www.tax.ny.gov/pdf/publications/withholding/nys50_t_nyc.pdf"
+        },
+        {
+          "label": "NYS-50-T-Y, Yonkers withholding tables (1/26)",
+          "url": "https://www.tax.ny.gov/pdf/publications/withholding/nys50_t_y.pdf"
+        }
+      ]
+    },
+    {
+      "key": "pennsylvania",
+      "name": "Pennsylvania",
+      "checked": "2026-10-14",
+      "included": false,
+      "lead": "Philadelphia charges a wage tax of its own, and it dwarfs the state's flat rate.",
+      "items": [
+        {
+          "place": "Philadelphia",
+          "text": "3.735% for residents of the city and 3.425% for everyone else who works in it, effective 1 July 2026 — more than the state's own 3.07% either way."
+        }
+      ],
+      "sources": [
+        {
+          "label": "City of Philadelphia, Wage Tax rates",
+          "url": "https://www.phila.gov/services/payments-assistance-taxes/business-taxes/wage-tax-employers/"
+        }
+      ]
+    },
+    {
+      "key": "indiana",
+      "name": "Indiana",
+      "checked": "2026-10-14",
+      "included": false,
+      "lead": "Every Indiana county charges income tax of its own on top of the state's 2.95%, so nobody in Indiana pays only the state rate.",
+      "items": [
+        {
+          "place": "All 92 counties",
+          "text": "County rates run from 0.50% to 3.00% for 2026. Marion County, which is Indianapolis, takes 2.02%."
+        },
+        {
+          "place": "Which rate applies",
+          "text": "The county you lived in on 1 January decides it. If you did not live in Indiana on that date, it is the county where you mainly work."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Indiana DOR, Departmental Notice #1, effective 1 January 2026",
+          "url": "https://www.in.gov/dor/files/dn01.pdf"
+        }
+      ]
+    },
+    {
+      "key": "maryland",
+      "name": "Maryland",
+      "checked": "2026-10-14",
+      "included": true,
+      "lead": "Maryland's local tax is not separate from your paycheck — it is withheld alongside the state tax, and it is the reason Maryland withholding looks high.",
+      "items": [
+        {
+          "place": "23 counties and Baltimore City",
+          "text": "Local rates run from 2.25% to 3.30% for 2026, and the rate follows where you live, not where you work. Anne Arundel and Frederick counties charge different rates at different income levels."
+        },
+        {
+          "place": "In the figures above",
+          "text": "The calculator uses 3.20%, near the top of that range. In a county that charges less, your take-home is higher than shown by up to about 1% of your taxable pay."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Maryland Comptroller, employer withholding guide, January 2026",
+          "url": "https://www.marylandcomptroller.gov/content/dam/mdcomp/tax/instructions/withholding/2026/withholding-guide.pdf"
+        },
+        {
+          "label": "Maryland Comptroller, income tax rates and brackets",
+          "url": "https://www.marylandtaxes.gov/individual/income/tax-info/tax-rates.php"
+        }
+      ]
+    },
+    {
+      "key": "oregon",
+      "name": "Oregon",
+      "checked": "2026-10-14",
+      "included": "partly",
+      "lead": "Oregon has one small tax that reaches every worker and two larger ones around Portland that only reach higher earners.",
+      "items": [
+        {
+          "place": "Statewide",
+          "text": "The statewide transit tax takes 0.1% of wages — from residents wherever they work, and from everyone else for work done in Oregon. It is already included in the figures above."
+        },
+        {
+          "place": "Greater Portland (Metro)",
+          "text": "The supportive housing services tax is 1% of taxable income above $125,000 for a single filer or $200,000 for joint filers. From the 2026 tax year those thresholds rise with inflation."
+        },
+        {
+          "place": "Multnomah County",
+          "text": "Preschool for All takes 1.5% of taxable income above $125,000 single or $200,000 joint, and another 1.5% above $250,000 single or $400,000 joint. The rate goes up by 0.8% in 2028."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Oregon Department of Revenue, statewide transit tax",
+          "url": "https://www.oregon.gov/dor/programs/businesses/pages/statewide-transit-tax.aspx"
+        },
+        {
+          "label": "City of Portland Revenue Division, Metro SHS and Multnomah PFA personal income tax",
+          "url": "https://www.portland.gov/revenue/personal-tax"
+        }
+      ]
+    }
+  ]
+}
