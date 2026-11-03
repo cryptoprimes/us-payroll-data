@@ -1,7 +1,7 @@
 {
   "taxYear": 2026,
   "ratesChecked": "2026-09-01",
-  "generated": "2026-10-13",
+  "generated": "2026-11-03",
   "source": "https://paycheckledger.com",
   "license": "CC BY 4.0",
   "note": "City and county income taxes charged on top of the state rate. Only states confirmed against a primary source are listed.",
@@ -19,7 +19,7 @@
         },
         {
           "place": "Yonkers",
-          "text": "Residents pay a surcharge on top of their state tax, withheld with the city's own tables — supplemental pay at 1.95975%. People who work in Yonkers but live elsewhere pay the nonresident earnings tax of 0.50% of wages instead."
+          "text": "Residents pay a surcharge on top of their state tax, withheld with the city's own tables - supplemental pay at 1.95975%. People who work in Yonkers but live elsewhere pay the nonresident earnings tax of 0.50% of wages instead."
         }
       ],
       "sources": [
@@ -42,7 +42,7 @@
       "items": [
         {
           "place": "Philadelphia",
-          "text": "3.735% for residents of the city and 3.425% for everyone else who works in it, effective 1 July 2026 — more than the state's own 3.07% either way."
+          "text": "3.735% for residents of the city and 3.425% for everyone else who works in it, effective 1 July 2026 - more than the state's own 3.07% either way."
         }
       ],
       "sources": [
@@ -80,7 +80,7 @@
       "name": "Maryland",
       "checked": "2026-10-14",
       "included": true,
-      "lead": "Maryland's local tax is not separate from your paycheck — it is withheld alongside the state tax, and it is the reason Maryland withholding looks high.",
+      "lead": "Maryland's local tax is not separate from your paycheck - it is withheld alongside the state tax, and it is the reason Maryland withholding looks high.",
       "items": [
         {
           "place": "23 counties and Baltimore City",
@@ -111,7 +111,7 @@
       "items": [
         {
           "place": "Statewide",
-          "text": "The statewide transit tax takes 0.1% of wages — from residents wherever they work, and from everyone else for work done in Oregon. It is already included in the figures above."
+          "text": "The statewide transit tax takes 0.1% of wages - from residents wherever they work, and from everyone else for work done in Oregon. It is already included in the figures above."
         },
         {
           "place": "Greater Portland (Metro)",

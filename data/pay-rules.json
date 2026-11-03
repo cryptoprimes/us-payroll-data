@@ -1,7 +1,7 @@
 {
   "taxYear": 2026,
   "ratesChecked": "2026-09-01",
-  "generated": "2026-10-13",
+  "generated": "2026-11-03",
   "source": "https://paycheckledger.com",
   "license": "CC BY 4.0",
   "note": "Minimum wage, tipped wages, overtime, how often wages must be paid and when a final paycheck is due. Every record carries the state's own source and the date it was checked.",
@@ -1035,7 +1035,7 @@
         }
       },
       "finalPay": {
-        "text": "If you are fired, within 72 hours. If you quit, by the next regular payday — or within 72 hours if you gave a full pay period's notice.",
+        "text": "If you are fired, within 72 hours. If you quit, by the next regular payday - or within 72 hours if you gave a full pay period's notice.",
         "source": {
           "url": "https://www.dol.nh.gov/resource-center/frequently-asked-questions/wages-and-work-hours-faqs",
           "label": "New Hampshire Department of Labor, wages and work hours FAQ"

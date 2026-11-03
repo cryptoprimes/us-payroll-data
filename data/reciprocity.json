@@ -1,7 +1,7 @@
 {
   "taxYear": 2026,
   "ratesChecked": "2026-09-01",
-  "generated": "2026-10-13",
+  "generated": "2026-11-03",
   "source": "https://paycheckledger.com",
   "license": "CC BY 4.0",
   "note": "Agreements under which wages are taxed only in the state where the employee lives. Only states whose own documents list their partners are included.",
@@ -81,7 +81,7 @@
         "West Virginia"
       ],
       "form": "Form VA-4",
-      "note": "If Virginia tax was withheld anyway, you get it back by filing Form 763-S — you do not file a full Virginia return.",
+      "note": "If Virginia tax was withheld anyway, you get it back by filing Form 763-S - you do not file a full Virginia return.",
       "source": {
         "label": "Virginia Department of Taxation, reciprocity",
         "url": "https://www.tax.virginia.gov/reciprocity"
